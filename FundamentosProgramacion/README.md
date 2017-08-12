@@ -32,14 +32,18 @@
 
 ### Clase 1
 
+#### Temas
+
 * Presentación del curso
 * Introducción a Git & GitHub
 * Introducción a la Programación
 * Introducción a JavaScript
 * [Teoría Clase 1](https://jonmircha.github.io/edjs-paradigmas2017/#/)
 * [Las Eras de JavaScript](https://ed.team/blog/las-eras-de-javascript)
+* [Charla sobre Herramientas Frontend en 2017 (Git & GitHub)](https://www.youtube.com/watch?v=AJrJSuA6NiU)
 
-### Actividades
+#### Actividades
+
   * Crea tu cuenta de GitHub
   * Crea un repositorio para tu proyecto
   * Trata de subir el proyecto con el que trabajarás
