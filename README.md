@@ -10,12 +10,7 @@
 
 ## Estudiantes
 
-
-
-Fundamentos de Programación Web
-Conceptos básicos de Programación
-Fundamentos de Programación en JavaScript
-Sintaxis y Gramática actual JavaScript (ES6)
-Paradigmas de Programación en JavaScript
-Variables, Funciones, Objetos, Clases en JavaScript
-DOM, Eventos y Formularios
+* Lizbeth liz.marquez@outlook.com
+* Montserrat montse_9206@hotmail.com
+* José Luis jandres@xanum.uam.mx
+* Mariel ldg.mariel.jaime@hmail.com
