@@ -18,6 +18,9 @@
   * **10%** Commits claros y precisos en el repositorio
   * **50%** 5 interacciones justificadas JavaScript en tu proyecto web
 
+## Entrega de Proyecto
+  **Lunes 18 de Septiembre de 2017 a más tardar a las 11:59:59pm enviar link de repositorio al correo jonmircha@gmail.com**
+
 ## Recursos
   * Para Git
     * [Libro de Git](https://git-scm.com/book/es/v1)
