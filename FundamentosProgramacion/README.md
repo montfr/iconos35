@@ -24,5 +24,20 @@
     * [Guía MarkDown](http://joedicastro.com/pages/markdown.html)
   * Para la materia
     * [Consulta de Primera Mano](https://www.w3schools.com)
-    * [Libro introductorio a JS](https://leanpub.com/javascript-inspirate)
-    * [Para aprender JS en serio](http://eloquentjavascript.net/)
+    * [Libro introductorio: JavaScript, ¡Inspírate!](https://leanpub.com/javascript-inspirate)
+    * [Para aprender en serio: Eloquent JavaScript](http://eloquentjavascript.net/)
+
+### Clase 1
+
+* Presentación del curso
+* Introducción a Git & GitHub
+* Introducción a la Programación
+* Introducción a JavaScript
+* [Teoría Clase 1](https://jonmircha.github.io/edjs-paradigmas2017/#/)
+* [Las Eras de JavaScript](https://ed.team/blog/las-eras-de-javascript)
+
+### Actividades
+  * Crea tu cuenta de GitHub
+  * Crea un repositorio para tu proyecto
+  * Trata de subir el proyecto con el que trabajarás
+  * Ve leyendo el libro [JavaScript, ¡Inspírate!](https://leanpub.com/javascript-inspirate)
