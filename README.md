@@ -14,3 +14,5 @@
 * Montserrat montse_9206@hotmail.com
 * José Luis jandres@xanum.uam.mx
 * Mariel ldg.mariel.jaime@gmail.com
+
+### Clase todos los viernes de 6pm a 10pm
