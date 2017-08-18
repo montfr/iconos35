@@ -13,4 +13,4 @@
 * Lizbeth liz.marquez@outlook.com
 * Montserrat montse_9206@hotmail.com
 * José Luis jandres@xanum.uam.mx
-* Mariel ldg.mariel.jaime@hmail.com
+* Mariel ldg.mariel.jaime@gmail.com
