@@ -57,3 +57,11 @@
 * Sintáxis y Gramática de JS
 * Las buenas partes de JS
 * [Características ES6](./teoria-es6.md)
+* Tipos de Datos
+  * Primitivos
+  * Complejos
+
+#### Actividades
+
+* Traer información de alguna temática que se pueda maquetar
+* Traer la Receta para jugar Gato
