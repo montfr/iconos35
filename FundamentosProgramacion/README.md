@@ -48,3 +48,12 @@
   * Crea un repositorio para tu proyecto
   * Trata de subir el proyecto con el que trabajarás
   * Ve leyendo el libro [JavaScript, ¡Inspírate!](https://leanpub.com/javascript-inspirate)
+
+
+### Clase 2
+
+#### Temas
+
+* Sintáxis y Gramática de JS
+* Las buenas partes de JS
+* [Características ES6](./teoria-es6.md)
