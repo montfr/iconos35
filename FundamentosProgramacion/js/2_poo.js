@@ -14,7 +14,7 @@
       c('Guau guau !!!')
     },
     comer: function (comida) {
-      c(`Come ${comida}`)
+      c(`Come ${comida} `)
     },
     aparecer: function (url) {
       document.write(`<img src="${url}">`)
@@ -121,3 +121,57 @@
   kenai.aparecer('https://jonmircha.github.io/edjs-paradigmas2017/img/kEnAi.jpg')
   boni.aparecer('https://i2.wp.com/www.mundoperro.net/wp-content/uploads/boxer-cachorro-1-mes.jpg?w=676&h=398&crop&ssl=1')
 })(console.log);
+
+((c) => {
+  class Carrito {
+    constructor (articulo) {
+      this.articulo = articulo
+      this._carrito = {}
+    }
+
+    _crearLista () {
+      let mensaje = `Carrito de ${this.articulo}\n`
+      for ( let propiedad in this._carrito ) {
+        mensaje += `\t${this._carrito[propiedad]} ${propiedad}\n`
+      }
+
+      return c(mensaje)
+    }
+
+    agregar (nombre, cantidad) {
+      this._carrito[nombre] = cantidad
+    }
+
+    quitar (nombre) {
+      delete this._carrito[nombre]
+    }
+
+    ver () {
+      this._crearLista()
+    }
+  }
+
+  let funko = new Carrito('Funkopops')
+  funko.agregar('Batman', 3)
+  funko.agregar('The Flash', 2)
+  //funko.quitar('The Flash')
+  c(funko)
+  funko.ver()
+  funko.agregar('Jon Snow', 4)
+  funko.ver()
+  funko.agregar('Wonder Woman', 1)
+  funko.ver()
+  funko.quitar('The Flash')
+  funko.ver()
+
+  let libros = new Carrito('Libros')
+  libros.agregar('El perfume', 4)
+  libros.agregar('Ready Player One', 2)
+  libros.agregar('Choque de Reyes', 3)
+  libros.agregar('Festin de Cuervos', 5)
+  libros.ver()
+  libros.quitar('El perfume')
+  libros.ver()
+})(console.log);
+
+
