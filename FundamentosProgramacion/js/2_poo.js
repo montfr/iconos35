@@ -174,4 +174,13 @@
   libros.ver()
 })(console.log);
 
+((d) => {
+  let reloj = d.getElementById('reloj')
 
+  reloj.style.fontSize = '300%'
+  reloj.style.fontWeight = 'bold'
+
+  setInterval(() => {
+    reloj.innerHTML = new Date().toLocaleTimeString()
+  }, 1000)
+})(document);
