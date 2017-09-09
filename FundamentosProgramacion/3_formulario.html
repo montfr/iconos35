@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Formularios</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/3_formulario.css">
 </head>
 <body>
@@ -13,7 +14,15 @@
     <legend>Envíanos tus comentarios</legend>
     <input type="text" name="nombre" placeholder="Escribe tu nombre" title="tu nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" required>
     <input type="email" name="email" placeholder="Escribe tu email" title="tu email" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" required>
+    <input type="text" name="asunto" title="asunto a tratar" placeholder="Asunto a tratar" required>
+    <textarea name="comentarios" title="tus comentarios" placeholder="Escribe tus comentarios" cols="50" rows="5" required></textarea>
     <input type="submit" value="Enviar">
+    <div class="ContactForm-preload">
+      <i class="fa fa-refresh fa-spin fa-3x fa-fw"></i>
+    </div>
+    <div class="ContactForm-message">
+      <p>Tu información ha sido enviada con éxito</p>
+    </div>
   </form>
   <script src="./js/3_formulario.js"></script>
 </body>
