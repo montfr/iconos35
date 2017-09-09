@@ -94,6 +94,22 @@ textarea { resize: none; }
   opacity: 1;
 }
 
+.ContactForm-error {
+  padding: 0 .5rem;
+  font-size: .85rem;
+  background-color: var(--color-main);
+  color: #000;
+  transition: padding 800ms ease-out,
+              height 800ms ease-out,
+              opacity 800ms ease-out;
+}
+
+.ContactForm-error.is-active {
+  padding: .5rem;
+  height: 1.85rem;
+  opacity: 1;
+}
+
 
 .u-hidden {
   height: 0;
