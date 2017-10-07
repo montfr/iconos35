@@ -16,8 +16,14 @@ Viernes de 6pm a 10pm
 * Conceptos básicos de lado servidor
 * Conceptos básicos de BDs
 
-#### Actividades
+#### Actividades clase 1
 
 1.  ¿Qué Proyecto voy a desarrollar?
 2. Mapa de Sitio (descripción de cada sección)
 3. ¿Que información de mi proyecto, puede almacenarse?
+
+#### Actividades clase 2
+
+1. Traer en Excel:
+  * De la tabla de datos principal, traer la información de 5 registros completos
+  * Precarga de todos los registros de las tablas catálogos
