@@ -15,7 +15,6 @@
 	trailer,
 	rating,
 	category, (catálogo de una opción)
-	state (catálogo de una opción)
 
 ### genres [Géneros de IMDB](http://www.imdb.com/genre)
 	Action
