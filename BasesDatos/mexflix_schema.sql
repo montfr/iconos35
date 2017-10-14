@@ -236,3 +236,18 @@ INSERT INTO countries (country_id, country_name) VALUES
   (193, 'Zambia'),
   (194, 'Zimbabue');
 
+CREATE TABLE movie_series(
+  imdb_id CHAR(9) PRIMARY KEY,
+  title VARCHAR(80) NOT NULL,
+  plot TEXT,
+  author VARCHAR(100) DEFAULT 'Pending',
+  actors VARCHAR(100) DEFAULT 'Pending',
+  genres VARCHAR(80) NOT NULL,
+  country VARCHAR(100) NOT NULL,
+  premiere YEAR(4) NOT NULL,
+  poster VARCHAR(200) DEFAULT 'no-poster.jpg',
+  trailer VARCHAR(100) DEFAULT 'no-trailer.jpg',
+  rating DECIMAL(2, 1) UNSIGNED DEFAULT 0,
+  category ENUM('Movie', 'Serie') NOT NULL
+);
+
