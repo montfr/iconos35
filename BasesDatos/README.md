@@ -27,3 +27,9 @@ Viernes de 6pm a 10pm
 1. Traer en Excel:
   * De la tabla de datos principal, traer la información de 5 registros completos
   * Precarga de todos los registros de las tablas catálogos
+
+#### Actividades clase 3
+1.  Entregar archivo SQL de la BD del proyecto con:
+  * La estructura de todas las tablas creadas.
+  * Todos los registros de las tablas catálogos precargados.
+  * Al menos 5 registros en las tablas de datos.
