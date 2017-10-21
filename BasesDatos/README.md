@@ -6,11 +6,11 @@ Viernes de 6pm a 10pm
 ## Evaluación:
 
 * Entregar de BD del proyecto:
-  1. Archivo `tu_bd_schema.sql` con:
+  1. Archivo **`tu_bd_schema.sq`** con:
     * La estructura de todas las tablas creadas.
     * Todos los registros de las tablas catálogos precargados.
     * 20 registros en las tablas de datos.
-  1. Archivo `tu_bd_crud.sql` con todos los conceptos CRUD vistos en la clase 4 aplicados a su base de datos.
+  1. Archivo **`tu_bd_crud.sql`** con todos los conceptos CRUD vistos en la clase 4 aplicados a su base de datos.
 
 ## Entrega:
   **Lunes 30 de Octubre de 2017 a más tardar a las 11:59:59pm al correo jonmircha@gmail.com**
