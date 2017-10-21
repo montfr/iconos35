@@ -3,11 +3,17 @@
 Del 29/Sep/17 al 27/Oct/17
 Viernes de 6pm a 10pm
 
-## Evaluación Parcial 1
+## Evaluación:
 
+* Entregar de BD del proyecto:
+  1. Archivo `tu_bd_schema.sql` con:
+    * La estructura de todas las tablas creadas.
+    * Todos los registros de las tablas catálogos precargados.
+    * 20 registros en las tablas de datos.
+  1. Archivo `tu_bd_crud.sql` con todos los conceptos CRUD vistos en la clase 4 aplicados a su base de datos.
 
-## Entrega de Proyecto
-  **Lunes 6 de Noviembre de 2017 a más tardar a las 11:59:59pm al correo jonmircha@gmail.com**
+## Entrega:
+  **Lunes 30 de Octubre de 2017 a más tardar a las 11:59:59pm al correo jonmircha@gmail.com**
 
 ### Clase 1
 
