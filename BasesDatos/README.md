@@ -6,7 +6,7 @@ Viernes de 6pm a 10pm
 ## Evaluación:
 
 * Entregar de BD del proyecto:
-  * Archivo **`tu_bd_schema.sq`** con:
+  * Archivo **`tu_bd_schema.sql`** con:
     * La estructura de todas las tablas creadas.
     * Todos los registros de las tablas catálogos precargados.
     * 20 registros en las tablas de datos.
