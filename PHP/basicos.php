@@ -19,6 +19,7 @@
 </head>
 <body>
   <h1>Básicos en PHP</h1>
+  <a href="index.php">regresar</a>
   <h2>
     Hola mi nombre es <?php echo $nombre . ' ' . $Nombre . ' y mi edad es ' . (2017 - 1984); ?>
   </h2>

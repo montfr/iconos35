@@ -27,6 +27,7 @@
 	<ul>
 		<li><a href="basicos.php">PHP Básico</a></li>
 		<li><a href="formularios.php">Formularios en PHP</a></li>
+    <li><a href="uploader.php">Subir archivos al servidor</a></li>
 	</ul>
 </body>
 </html>
