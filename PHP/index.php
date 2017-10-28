@@ -23,12 +23,13 @@
 		<li><a href="http://bextlan.com/tutoriales/php/" target="_blank">Tutoriales PHP</a></li>
 		<li><a href="http://bextlan.com/cursos/poo-php-mysql/" target="_blank">Curso de POO con PHP y MySQL</a></li>
 	</ul>
-  <h2>Ejercicios Básicos</h2>
+  <h2>Ejercicios básicos:</h2>
 	<ul>
-		<li><a href="basicos.php">PHP Básico</a></li>
+		<li><a href="basicos.php">PHP básico</a></li>
 		<li><a href="formularios.php">Formularios GET y POST</a></li>
     <li><a href="uploader.php">Subir archivos al servidor</a></li>
-    <li><a href="./sesiones/index.php">Manejo de Sesiones</a></li>
+    <li><a href="./sesiones/index.php">Manejo de sesiones</a></li>
+    <li><a href="./send_mail.php">Envío de correo electrónico</a></li>
 	</ul>
 </body>
 </html>
