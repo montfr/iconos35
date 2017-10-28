@@ -26,8 +26,9 @@
   <h2>Ejercicios Básicos</h2>
 	<ul>
 		<li><a href="basicos.php">PHP Básico</a></li>
-		<li><a href="formularios.php">Formularios en PHP</a></li>
+		<li><a href="formularios.php">Formularios GET y POST</a></li>
     <li><a href="uploader.php">Subir archivos al servidor</a></li>
+    <li><a href="./sesiones/index.php">Manejo de Sesiones</a></li>
 	</ul>
 </body>
 </html>
