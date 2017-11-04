@@ -88,7 +88,7 @@ $cel->vibrar();
 $cel->textear('Hola Mundo desde un SMS ;)');
 $cel->ver_info();
 
-echo '<h3>SmarthPhone:</h3>';
+echo '<h3>SmartPhone:</h3>';
 $sp = new SmartPhone('Motorola', 'G5');
 $sp->llamar();
 $sp->vibrar();

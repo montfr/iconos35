@@ -42,7 +42,7 @@ class Perro {
     echo "<p>$this->esterilizado</p>";
   }
 
-  public function que_es_un_perro () {
+  public static function que_es_un_perro () {
     echo '
       <p>El perro o perro doméstico (Canis lupus familiaris) o también llamado can es un mamífero carnívoro de la familia de los cánidos, que constituye una subespecie del lobo (Canis lupus).</p>
       <p>Un estudio publicado por la revista Nature revela que, gracias al proceso de domesticación, el organismo del perro se ha adaptado a cierta clase de alimentos, en este caso el almidón.</p>
@@ -61,6 +61,7 @@ class Perro {
 echo '<h1>Programación Orientada a Objetos en PHP</h1>';
 echo '<a href="./index.php">regresar</a>';
 
+//Puedo acceder a estos métodos y atributos sin instanciar la clase porque son estáticos
 echo '<p>Mi mejor amigo es el <b>' . Perro::$mejor_amigo . '</b></p>';
 echo '<p>Mi mejor cualidad es la <b>' . Perro::$mejor_cualidad . '</b></p>';
 //echo Perro::$nombre;
