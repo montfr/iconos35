@@ -43,9 +43,31 @@ class Celular extends Telefono {
   }
 }
 
-class SmarthPhone {
+final class SmartPhone extends Celular {
+  public $datos = 'Tengo WIFI';
 
+  function __construct($marca, $modelo) {
+    parent::__construct($marca, $modelo);
+  }
+
+  public function conectar () {
+    echo '<p>Tengo acceso a Internet!!!</p>';
+  }
+
+  public function ver_info () {
+    echo "
+      <ul>
+        <li>$this->marca</li>
+        <li>$this->modelo</li>
+        <li>$this->medio</li>
+        <li>$this->transmision</li>
+        <li>$this->datos</li>
+      </ul>
+    ";
+  }
 }
+
+/* class NeuroPhone extends SmartPhone {} */
 
 /* ********************************************* */
 
@@ -67,3 +89,8 @@ $cel->textear('Hola Mundo desde un SMS ;)');
 $cel->ver_info();
 
 echo '<h3>SmarthPhone:</h3>';
+$sp = new SmartPhone('Motorola', 'G5');
+$sp->llamar();
+$sp->vibrar();
+$sp->textear('Hola Mundo desde WA ;)');
+$sp->ver_info();
