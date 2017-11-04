@@ -55,7 +55,7 @@
     <li><a href="./sesiones/index.php">Manejo de sesiones</a></li>
     <li><a href="./send_mail.php">Envío de correo electrónico</a></li>
 	</ul>
-  <h2>PHP Orientada a Objetos</h2>
+  <h2>PHP Orientado a Objetos</h2>
   <h3>Características:</h3>
   <ul>
     <li>
