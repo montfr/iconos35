@@ -34,6 +34,8 @@ abstract class Model {
           '<li>N° de error: <mark>' . $this->mysql->connect_errno . '</mark></li>' .
           '<li>Mensaje del error: <mark>' . $this->mysql->connect_error . '</mark></li>'
         );
+      } else {
+        $this->mysql->set_charset( self::$db_charset );
       }
     } catch ( Exception $e ) {
       echo '
@@ -46,12 +48,26 @@ abstract class Model {
 
   //método privado para desconectarse de la base de datos
   private function db_close () {
-
+    $this->mysql->close();
   }
 
   //método privado que ejecutará cualquier expresión mysql válida y en caso de que existan errores los  mostrará
-  private function execute_query () {
-
+  private function execute_query ( $mysql_expression ) {
+    try {
+      if ( $mysql_expression ) {
+        throw new Exception(
+          '<li>N° de error: <mark>' . $this->mysql->errno . '</mark></li>' .
+          '<li>Mensaje del error: <mark>' . $this->mysql->error . '</mark></li>' .
+          '<li>Sentencia SQL: <mark>' . $this->sql . '</mark></li>'
+        );
+      }
+    } catch ( Exception $e ) {
+      echo '
+        <h3>Error al ejecutar la sentencia SQL</h3>
+        <ul>' . $e->getMessage() . '</ul>
+      ';
+      die();
+    }
   }
 
   //método protegido para establecer un query que afecte datos ( INSERT, UPDATE o DELETE )
