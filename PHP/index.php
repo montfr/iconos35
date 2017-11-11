@@ -126,5 +126,18 @@
     <li><a href="./poo_2.php">Herencia y polimorfismo</a></li>
     <li><a href="./poo_3.php">Abstracción</a></li>
   </ul>
+  <h2>PHP y MySQL</h2>
+  <h3>Clase MySQLi:</h3>
+  <ul>
+    <li><a href="http://php.net/manual/es/book.mysqli.php" target="_blank">Documentación completa mysqli</a></li>
+    <li><a href="http://php.net/manual/es/class.mysqli.php" target="_blank">La clase mysqli</a></li>
+    <li><a href="http://php.net/manual/es/mysqli.construct.php" target="_blank">Constructor clase mysqli</a></li>
+    <li><a href="http://php.net/manual/es/language.variables.variable.php" target="_blank">Variables variables</a></li>
+  </ul>
+  <h3>Ejercicios:</h3>
+  <ul>
+    <li><a href="./structured_connection.php">Conexión estructurada</a></li>
+    <li><a href="./poo_connection.php">Conexión orientada a objetos y operaciones CRUD</a></li>
+  </ul>
 </body>
 </html>
