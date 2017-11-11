@@ -72,10 +72,18 @@ abstract class Model {
 
   //método protegido para establecer un query que afecte datos ( INSERT, UPDATE o DELETE )
   protected function set_query () {
-
+    $this->db_open();
+    $this->execute_query( !$this->result = $this->mysql->query($this->sql) );
+    $this->db_close();
   }
   //método protegido para obtener datos de un query ( SELECT )
   protected function get_query () {
+    $this->db_open();
+    $this->execute_query( !$this->result = $this->mysql->query($this->sql) );
+    while ( $this->rows[] = $this->result->fetch_assoc()  );
+    $this->result->free();
+    $this->db_close();
 
+    return $this->rows;
   }
 }
