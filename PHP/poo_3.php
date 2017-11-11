@@ -28,6 +28,24 @@ class Triangulo extends Poligono {
   }
 }
 
+class Cuadrado extends Poligono {
+  private $lado;
+  public static $lados = 4;
+
+  public function __construct ($l) {
+    $this->lado = $l;
+  }
+
+  public function perimetro () {
+    return $this->lado * self::$lados;
+  }
+
+  public function area () {
+    //return $this->lado * $this->lado;
+    return pow($this->lado, 2);
+  }
+}
+
 
 echo '<h1>Abstracción en PHP</h1>';
 echo '<a href="./index.php">regresar</a>';
@@ -46,3 +64,7 @@ echo '<h2>Tríangulo</h2>';
 $triangulo = new Triangulo(5, 2, 6, 4);
 echo '<p>Un tríangulo tiene <b>' . Triangulo::$lados .  '</b> lados</p>';
 echo '<p>El perímetro de mi tríangulo es: <b>' . $triangulo->perimetro() . '</b>, y el área es <b>' . $triangulo->area() . '</b></p>';
+echo '<h2>Cuadrado</h2>';
+$cuadrado = new Cuadrado(5);
+echo '<p>Un cuadrado tiene <b>' . Cuadrado::$lados .  '</b> lados</p>';
+echo '<p>El perímetro de mi cuadrado es: <b>' . $cuadrado->perimetro() . '</b>, y el área es <b>' . $cuadrado->area() . '</b></p>';
