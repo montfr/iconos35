@@ -52,3 +52,49 @@ for ( $n=0; $n < count($countries_data); $n++ ) {
 
 echo '</table>';
 
+echo '<hr>';
+
+echo '<h2>CRUD de la tabla genres</h2>';
+
+$genres = new GenresModel();
+
+/* $genres->create(array(
+  'genre_id' => 0,
+  'genre_name' => 'Super Heros'
+)); */
+
+/* $genres->update(array(
+  'genre_id' => 28,
+  'genre_name' => 'Gamers'
+)); */
+
+/* $genres->delete(27); */
+
+$genres_data = $genres->read();
+$num_genres = count($genres_data);
+//var_dump($genres_data);
+
+echo "<h3>Numero de géneros: <mark>$num_genres</mark></h3>";
+
+echo'<h3>Tabla Genres</h3>';
+
+echo '
+  <table>
+    <tr>
+      <th>genre_id</th>
+      <th>genre_name</th>
+    </tr>
+';
+
+for ( $n=0; $n < count($genres_data); $n++ ) {
+  echo '
+    <tr>
+      <td>' . $genres_data[$n]['genre_id']  .'</td>
+      <td>' . $genres_data[$n]['genre_name']  . '</td>
+    </tr>
+  ';
+}
+
+echo '</table>';
+
+echo '<hr>';
