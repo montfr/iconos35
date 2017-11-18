@@ -84,6 +84,6 @@ abstract class Model {
     $this->result->free();
     $this->db_close();
 
-    return $this->rows;
+    return array_pop($this->rows);
   }
 }
