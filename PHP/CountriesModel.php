@@ -26,6 +26,20 @@ final class CountriesModel extends Model {
     return $data;
   }
 
+  public function read_desc ( $id = '' ) {
+    $this->sql = ( $id != '' )
+      ? "SELECT * FROM countries WHERE country_id = $id ORDER BY country_id DESC"
+      : "SELECT * FROM countries ORDER BY country_id DESC";
+
+    $this->get_query();
+    $data = array();
+    foreach ($this->rows as $key => $value) {
+      array_push($data, $value);
+    }
+
+    return $data;
+  }
+
   public function update ( $data = array() ) {
     foreach ($data as $key => $value) {
       $$key = $value;

@@ -8,6 +8,23 @@ echo '<a href="./index.php">regresar</a>';
 
 echo '<h2>CRUD de la tabla countries</h2>';
 $countries = new CountriesModel();
+
+/* Operación CREATE */
+/* $countries->create(array(
+  'country_id' => 0,
+  'country_name' => 'Sokovia'
+)); */
+
+/* Operación UPDATE */
+/* $countries->update(array(
+  'country_id' => 196,
+  'country_name' => 'Bravos'
+)); */
+
+/* Operación DELETE */
+//$countries->delete(195);
+
+/* Operacion READ */
 $countries_data = $countries->read();
 $num_countries = count($countries_data);
 //var_dump($countries_data);
