@@ -13,11 +13,12 @@
     </div>
     <nav class="Menu">
       <ul>
-        <li><a href="./index.php">Inicio</a></li>
-        <li><a href="./acerca.php">Acerca</a></li>
-        <li><a href="./servicios.php">Servicios</a></li>
-        <li><a href="./proyectos.php">Proyectos</a></li>
-        <li><a href="./contacto.php">Contacto</a></li>
+        <li><a href="./">Inicio</a></li>
+        <li><a href="acerca">Acerca</a></li>
+        <li><a href="servicios">Servicios</a></li>
+        <li><a href="proyectos">Proyectos</a></li>
+        <li><a href="contacto">Contacto</a></li>
+        <li><a href="blog">Blog</a></li>
       </ul>
     </nav>
   </header>

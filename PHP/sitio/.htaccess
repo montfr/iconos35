@@ -3,10 +3,10 @@
 Options +FollowSymlinks
 RewriteEngine On
 
-RewriteBase /aClases/PHP/maratones
+RewriteBase /aAlumnos/iconos35/PHP/sitio
 # RewriteBase /
 
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 
-RewriteRule ^(.*)$ index.php?s=$1 [L]
+RewriteRule ^(.*)$ index.php?p=$1 [L]
