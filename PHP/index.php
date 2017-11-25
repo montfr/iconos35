@@ -140,8 +140,17 @@
     <li><a href="./poo_connection.php">Conexión orientada a objetos y operaciones CRUD</a></li>
   </ul>
   <h2>PHP + Frontend</h2>
+  <h3>Archivos <code>.htaccess</code></h3>
   <ul>
-    <li><a href="./sitio/index.php">Estructurando Sitio Web con PHP</a></li>
+    <li><a href="http://www.htaccess-guide.com/" target="blank">.htaccess Guide</a></li>
+    <li><a href="https://hipertextual.com/archivo/2012/07/archivo-htaccess-apache/" target="blank">¿Para qué sirve el archivo .htaccess de Apache?</a></li>
+    <li><a href="http://librosweb.es/tutorial/trucos-y-ejemplos-de-configuracion-del-archivo-htaccess-de-apache/" target="blank">Trucos y ejemplos de configuración del archivo htaccess de Apache</a></li>
+    <li><a href="https://www.youtube.com/watch?v=J_npJ8kKESg" target="blank">Video tutorial: Optimización de sitios web con PHP</a></li>
+    <li><a href="https://www.youtube.com/watch?v=HsmYkJ1qlHE" target="blank">Video tutorial: URLs Amigables</a></li>
+  </ul>
+  <h3>Ejercicios:</h3>
+  <ul>
+    <li><a href="./sitio/">Estructurando Sitio Web con PHP</a></li>
   </ul>
 </body>
 </html>
