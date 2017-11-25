@@ -139,5 +139,9 @@
     <li><a href="./structured_connection.php">Conexión estructurada</a></li>
     <li><a href="./poo_connection.php">Conexión orientada a objetos y operaciones CRUD</a></li>
   </ul>
+  <h2>PHP + Frontend</h2>
+  <ul>
+    <li><a href="./sitio/index.php">Estructurando Sitio Web con PHP</a></li>
+  </ul>
 </body>
 </html>
