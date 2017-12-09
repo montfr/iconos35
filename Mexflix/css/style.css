@@ -1,0 +1,20 @@
+:root {
+  --color-main: #E50914;
+  --color-bg: #141414;
+  --color-font: #FFF;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+}
+
+nav,
+.page-footer {
+  background-color: var(--color-bg);
+}
