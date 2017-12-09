@@ -18,3 +18,8 @@ nav,
 .page-footer {
   background-color: var(--color-bg);
 }
+
+/* Cuando queramos una .navbar-fixed, el overlay del menu móvil tapa los enlaces, hay que aplicarle este valor de z-index al #sidenav-overlay, para que se vuelvan interactivos nuevamente */
+#sidenav-overlay {
+  z-index: 996;
+}
