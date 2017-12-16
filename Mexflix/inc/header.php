@@ -17,20 +17,24 @@
         <a href="./" class="brand-logo">Mexflix</a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-          <li><a href="./">Inicio</a></li>
           <li><a href="movies">Movies</a></li>
           <li><a href="series">Series</a></li>
           <li><a href="acerca">Acerca</a></li>
           <li><a href="contacto">Contacto</a></li>
+          <li><a href="admin">Administrar</a></li>
+          <li><a href="admin">Perfil</a></li>
           <li><a href="login">Login</a></li>
+          <li><a href="logout">Logout</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
-          <li><a href="./">Inicio</a></li>
           <li><a href="movies">Movies</a></li>
           <li><a href="series">Series</a></li>
           <li><a href="acerca">Acerca</a></li>
           <li><a href="contacto">Contacto</a></li>
+          <li><a href="admin">Administrar</a></li>
+          <li><a href="admin">Perfil</a></li>
           <li><a href="login">Login</a></li>
+          <li><a href="logout">Logout</a></li>
         </ul>
       </div>
     </nav>

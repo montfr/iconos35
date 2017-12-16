@@ -263,3 +263,15 @@ INSERT INTO movie_series (imdb_id, title, plot, author, actors, genres, country,
   ('tt0468569', 'The Dark Knight', 'Batman raises the stakes in his war on crime. With the help of Lieutenant Jim Gordon and District Attorney Harvey Dent, Batman sets out to dismantle the remaining criminal organizations that plague the city streets. The partnership proves to be effective, but they soon find themselves prey to a reign of chaos unleashed by a rising criminal mastermind known to the terrified citizens of Gotham as The Joker.', 'Christopher Nolan', 'Christian Bale, Heath Ledger, Aaron Eckhart, Michael Caine', 'Action, Crime, Drama', 'Estados Unidos, Reino Unido', 2008, 'https://images-na.ssl-images-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_UX182_CR0,0,182,268_AL_.jpg', 'https://www.youtube.com/watch?v=--z4YzxlT8o', '9.0', 'Movie'),
   ('tt0903747', 'Breaking Bad', 'A chemistry teacher diagnosed with terminal lung cancer teams up with his former student to cook and sell crystal meth.', 'Vince Gilligan', 'Bryan Cranston, Anna Gunn, Aaron Paul, Dean Norris', 'Crime, Drama, Thriller', 'Estados Unidos', 2008, 'https://images-na.ssl-images-amazon.com/images/M/MV5BZDNhNzhkNDctOTlmOS00NWNmLWEyODQtNWMxM2UzYmJiNGMyXkEyXkFqcGdeQXVyNTMxMjgxMzA@._V1_UY268_CR4,0,182,268_AL_.jpg', 'https://www.youtube.com/watch?v=--z4YzxlT8o', '9.5', 'Serie');
 
+CREATE TABLE users(
+  user VARCHAR(20) PRIMARY KEY,
+  email VARCHAR(80) UNIQUE NOT NULL,
+  name VARCHAR(100) NOT NULL,
+  birthday DATE NOT NULL,
+  pass CHAR(32) NOT NULL,
+  role ENUM('User', 'Admin') NOT NULL
+);
+
+INSERT INTO users (user, email, name, birthday, pass, role) VALUES
+  ( '@jonmircha', 'jonmircha@gmail.com', 'Jonathan MirCha', '1984-05-23', MD5('los perros rifan'), 'Admin' ),
+  ( '@user', 'usuario@loquesea.com', 'Usuario Mortal', '2000-12-19', MD5('usuario sin privilegios'), 'User');
