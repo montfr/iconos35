@@ -20,6 +20,15 @@ switch ( $route ) {
   case 'login':
     require('./inc/template-parts/login.php');
     break;
+  case 'admin':
+    session_validate('admin');
+    break;
+  case 'perfil':
+    session_validate('perfil');
+    break;
+  case 'logout':
+    session_logout();
+    break;
   default:
     require('./inc/template-parts/404.php');
     break;

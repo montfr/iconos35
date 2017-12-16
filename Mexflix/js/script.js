@@ -13,11 +13,16 @@
       //alert('Enviando Form Login')
       $.ajax({
         method: 'POST',
-        url: 'login',
-        data: $(this)
+        url: './ajax.php',
+        data: $(this).serialize()
       })
       .done(function (data) {
-        c('Éxito:', data)
+        c(data)
+        if ( data ) {
+          w.location.href = './'
+        } else {
+          $('#message').html('Tu usuario y/o contraseña son incorrectos')
+        }
       })
       .fail(function (error) {
         c('Error:', error)

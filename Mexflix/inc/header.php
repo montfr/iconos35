@@ -22,7 +22,7 @@
           <li><a href="acerca">Acerca</a></li>
           <li><a href="contacto">Contacto</a></li>
           <li><a href="admin">Administrar</a></li>
-          <li><a href="admin">Perfil</a></li>
+          <li><a href="perfil">Perfil</a></li>
           <li><a href="login">Login</a></li>
           <li><a href="logout">Logout</a></li>
         </ul>
@@ -32,7 +32,7 @@
           <li><a href="acerca">Acerca</a></li>
           <li><a href="contacto">Contacto</a></li>
           <li><a href="admin">Administrar</a></li>
-          <li><a href="admin">Perfil</a></li>
+          <li><a href="perfil">Perfil</a></li>
           <li><a href="login">Login</a></li>
           <li><a href="logout">Logout</a></li>
         </ul>
