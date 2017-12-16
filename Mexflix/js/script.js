@@ -7,5 +7,21 @@
       closeOnClick: true,
       draggable: true
     })
+
+    $('#form-login').submit(function (e) {
+      e.preventDefault()
+      //alert('Enviando Form Login')
+      $.ajax({
+        method: 'POST',
+        url: 'login',
+        data: $(this)
+      })
+      .done(function (data) {
+        c('Éxito:', data)
+      })
+      .fail(function (error) {
+        c('Error:', error)
+      })
+    })
   })
 })(document, window, console.log, jQuery);
