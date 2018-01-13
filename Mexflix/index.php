@@ -4,6 +4,7 @@ require('./inc/models/MovieSeriesModel.php');
 require('./inc/models/CountriesModel.php');
 require('./inc/models/GenresModel.php');
 require('./inc/models/UsersModel.php');
+require('./inc/models/ContactFormModel.php');
 require('./inc/controllers/SessionController.php');
 require('./inc/header.php');
 require('./inc/content.php');

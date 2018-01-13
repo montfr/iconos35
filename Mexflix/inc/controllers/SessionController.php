@@ -42,6 +42,3 @@ function session_logout () {
   session_destroy();
   header('Location: ./login');
 }
-
-
-

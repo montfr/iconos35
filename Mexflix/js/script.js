@@ -28,5 +28,23 @@
         c('Error:', error)
       })
     })
+
+    $('#form-contact').submit(function (e) {
+      e.preventDefault()
+      alert('Enviando Form Contact')
+      c($(this).serialize())
+      $.ajax({
+        method: 'POST',
+        url: './ajax.php',
+        data: $(this).serialize()
+      })
+        .done(function (data) {
+          c(data)
+          $('#message').html(data)
+        })
+        .fail(function (error) {
+          c('Error:', error)
+        })
+    })
   })
 })(document, window, console.log, jQuery);

@@ -275,3 +275,12 @@ CREATE TABLE users(
 INSERT INTO users (user, email, name, birthday, pass, role) VALUES
   ( '@jonmircha', 'jonmircha@gmail.com', 'Jonathan MirCha', '1984-05-23', MD5('los perros rifan'), 'Admin' ),
   ( '@user', 'usuario@loquesea.com', 'Usuario Mortal', '2000-12-19', MD5('usuario sin privilegios'), 'User');
+
+CREATE TABLE contact_form (
+  contact_id INTEGER UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+  contact_date DATE NOT NULL,
+  name VARCHAR(100) NOT NULL,
+  email VARCHAR(80) NOT NULL,
+  subject VARCHAR(100) NOT NULL,
+  comments TEXT
+);
